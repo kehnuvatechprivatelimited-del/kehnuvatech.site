@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KehnuvaTech Private Limited</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hero-bg {
+            background: linear-gradient(to right, #1e40af, #60a5fa);
+        }
+        .section-padding {
+            padding: 4rem 1.5rem;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            transition: transform 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans antialiased">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md sticky top-0 z-10">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-600">KehnuvaTech</div>
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="text-gray-700 hover:text-blue-600">Home</a></li>
+                <li><a href="#about" class="text-gray-700 hover:text-blue-600">About</a></li>
+                <li><a href="#products" class="text-gray-700 hover:text-blue-600">Our Products</a></li>
+                <li><a href="#contact" class="text-gray-700 hover:text-blue-600">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-bg text-white text-center section-padding">
+        <div class="container mx-auto">
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">KehnuvaTech Private Limited</h1>
+            <p class="text-lg md:text-xl font-light max-w-2xl mx-auto">
+                Crafting Innovative Software Solutions for Our Users in Jammu & Kashmir and Beyond
+            </p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto section-padding text-center">
+        <h2 class="text-3xl font-semibold text-gray-800 mb-6">About KehnuvaTech</h2>
+        <p class="text-gray-600 leading-relaxed max-w-3xl mx-auto">
+            Based in Poonch, Jammu & Kashmir, KehnuvaTech Private Limited is dedicated to building cutting-edge software designed with our users in mind. We create intuitive, reliable, and powerful tools to enhance productivity, connectivity, and experiences for individuals and businesses alike. Our mission is to empower our users with technology that simplifies their lives and drives progress.
+        </p>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="bg-gray-100 section-padding">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-10">Our Software for You</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md card-hover">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-3">User-Focused Applications</h3>
+                    <p class="text-gray-600">Discover our suite of applications designed to make your daily tasks seamless, intuitive, and efficient.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md card-hover">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-3">Productivity Tools</h3>
+                    <p class="text-gray-600">Boost your efficiency with our software solutions tailored to streamline workflows and enhance collaboration.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md card-hover">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-3">Scalable Platforms</h3>
+                    <p class="text-gray-600">Access robust platforms built to grow with you, ensuring reliability and performance for all users.</p>
+                </div>
+            </div>
+        </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-900 text-white py-10">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-2xl font-semibold mb-4">Contact Us</h3>
+            <p class="text-gray-300 mb-2">KehnuvaTech Private Limited</p>
+            <p class="text-gray-300 mb-2">145 Poonch, Jammu & Kashmir 185101, India</p>
+            <p class="text-gray-300 mb-2">Website: <a href="https://www.kehnuvatech.site" class="underline hover:text-blue-400">kehnuvatech.site</a></p>
+            <p class="text-gray-300 mb-2">Email: <a href="mailto:contact@kehnuvatech.site" class="underline hover:text-blue-400">contact@kehnuvatech.site</a></p>
+            <p class="text-gray-300">Phone: <a href="tel:+917780957354" class="underline hover:text-blue-400">+91 77809 57354</a></p>
+        </div>
+    </footer>
+</body>
+</html>
